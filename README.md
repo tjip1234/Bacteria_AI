@@ -1,6 +1,8 @@
 # Bacteria_AI
 This is a small project of mine. 
+
 it currently only recognises:
+
     "0" : "Bfragilis",
     "1" : "Ecoli",
     "2" : "Lactobacillus.casei",
@@ -15,6 +17,7 @@ it currently only recognises:
     "11" : "Lactobacillus.rhamnosus",
     "12" : "Lactobacillus.salivarius",
     "13" : "Paeruginosa"
+    
  feel free to add foto's and new bacteria,I made them black and white because i only got 1 source. 
  Huge thanks to the makers of the Database i got these from. 
  http://misztal.edu.pl/software/databases/dibas/
@@ -26,19 +29,31 @@ it currently only recognises:
  for windows users:
  
  make a folder called whatever you like
+ 
  download this github
+ 
  download https://drive.google.com/file/d/13BXhllseio42aFz3QPKBR931mFN050DS/view?usp=sharing
+ 
  put them in the folder
+ 
  unpack the data set
+ 
  install python3.6
+ 
  python3.6 -m pip install tensorflow==1.13.1
+ 
 python3.6 -m pip install opencv-python
+
 python3.6 -m pip install keras==2.2.4
+
 python3.6 -m pip install numpy==1.16.1
+
 python3.6 -m pip install imageai --upgrade
 
 and run the scripts with python3.6 ~scriptname~
+
 bulk will do images 0-9
+
 recognize will do image.jpg
 
 Have fun!
