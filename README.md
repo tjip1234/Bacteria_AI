@@ -1,22 +1,21 @@
 # Bacteria_AI
-This is a small project of mine. 
 
 it currently only recognises:
 
-    "0" : "Bfragilis",
-    "1" : "Ecoli",
-    "2" : "Lactobacillus.casei",
-    "3" : "Lactobacillus.crispatus",
-    "4" : "Lactobacillus.delbrueckii",
-    "5" : "Lactobacillus.gasseri",
-    "6" : "Lactobacillus.jehnsenii",
-    "7" : "Lactobacillus.johnsonii",
-    "8" : "Lactobacillus.paracasei",
-    "9" : "Lactobacillus.plantarum",
-    "10" : "Lactobacillus.reuteri",
-    "11" : "Lactobacillus.rhamnosus",
-    "12" : "Lactobacillus.salivarius",
-    "13" : "Paeruginosa"
+    • Bfragilis
+    • Ecoli
+    • Lactobacillus.casei
+    • Lactobacillus.crispatus
+    • Lactobacillus.delbrueckii
+    • Lactobacillus.gasseri
+    • Lactobacillus.jehnsenii
+    • Lactobacillus.johnsonii
+    • Lactobacillus.paracasei
+    • Lactobacillus.plantarum
+    • Lactobacillus.reuteri
+    • Lactobacillus.rhamnosus
+    • Lactobacillus.salivarius
+    • Paeruginosa
     
  feel free to add foto's and new bacteria,I made them black and white because i only got 1 source. 
  Huge thanks to the makers of the Database i got these from. 
@@ -50,10 +49,15 @@ python3.6 -m pip install numpy==1.16.1
 
 python3.6 -m pip install imageai --upgrade
 
-and run the scripts with python3.6 "scriptname"
+# usage
+if you use windows you will have to alter the pathways
+
+run the scripts with python3.6 "scriptname"
 
 bulk will do images 0-9
 
 recognize will do image.jpg
+
+train will train the AI again dont run this one inside the directory
 
 Have fun!
