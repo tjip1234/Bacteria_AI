@@ -50,7 +50,7 @@ python3.6 -m pip install numpy==1.16.1
 
 python3.6 -m pip install imageai --upgrade
 
-and run the scripts with python3.6 ~scriptname~
+and run the scripts with python3.6 "scriptname"
 
 bulk will do images 0-9
 
